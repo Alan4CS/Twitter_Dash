@@ -2,7 +2,6 @@ import dash
 from dash import html, dcc, Output, Input, dash_table
 from dash.exceptions import PreventUpdate
 import pandas as pd
-from pysentimiento import SentimentAnalyzer
 import dash.dependencies as dd
 from db_data_tweets import tweets_database
 import time
@@ -37,7 +36,7 @@ def format_comments(comments):
 # --------- Main ------------------
 
 # Crear una instancia del analizador de sentimientos
-analyzer = SentimentAnalyzer(lang="es")
+#analyzer = SentimentAnalyzer(lang="es")
 
 app = dash.Dash(__name__, suppress_callback_exceptions=True)
 
