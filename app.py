@@ -178,7 +178,7 @@ def actualizar_pagina(selected_user, selected_tweet_id):
             columns=[
                 {'name': 'ID', 'id': 'id_tweet_user'},
                 {'name': 'Texto', 'id': 'text'},
-                {'name': 'Enlace', 'id': 'link_tweet'},
+                {'name': 'Enlace', 'id': 'link_tweet','presentation': 'markdown'},
                 {'name': 'Likes', 'id': 'cantidad_likes'},
                 {'name': 'Compartido', 'id': 'cantidad_repost'},
                 {'name': 'Comentarios', 'id': 'cantidad_comments'},
