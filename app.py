@@ -343,4 +343,4 @@ def reset_second_dropdown(selected_user):
 
 
 if __name__ == '__main__':
-    app.run(debug=True,port=8059)
+    app.run(debug=True,host='0.0.0.0')
